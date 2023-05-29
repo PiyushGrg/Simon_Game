@@ -28,7 +28,7 @@ function animatePress(currentColour){
 
 var level=0;
 var gameStart=0;
-$(document).keypress(function(){
+$("#level-title").click(function(){
     if(gameStart===0){
         $("#level-title").text("Level " + level);
         nextSequence();
